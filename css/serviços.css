@@ -1,0 +1,81 @@
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90vw;
+    height: 50vh;
+    border-radius: 15px;
+    background: linear-gradient(162deg, rgba(25, 5, 38, 0.80) 23.96%, rgba(42, 9, 64, 0.80) 54.3%, rgba(79, 26, 115, 0.80) 92.78%);
+    box-shadow: 3px 4px 6px 2px rgba(0, 0, 0, 0.25);
+    margin: 5px auto;
+    padding: 1px;
+
+  
+}
+.servico{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor6);
+    box-shadow: 3px 4px 10px 2px rgba(0, 0, 0, 0.25);
+    height: 15%;
+    width: 80%;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+.servico>a{
+    color: #000;
+    font-family: Ubuntu;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+footer{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    height: 85px;
+    background: #BC62F0;
+    box-shadow: 2px -2px 10px 3px rgba(0, 0, 0, 0.25);
+}
+footer>img{
+    width: 32px;
+    height: 32px;
+}
+
+@media (max-width:300px){
+    .servico>a{
+        font-size: 16px;
+    }
+}
+
+@media (min-width:700px){
+    main{
+        width: 70vw;
+    }
+}
+
+@media (min-width: 850px) {
+    body>h1{
+        font-size: 3em;
+        margin-top: 2% ;
+    }
+    main{
+        width: 500px;
+        height: 65vh;
+    }
+    .servico>a{
+        font-size: 1.3em;
+    }
+    footer{
+        height: 50px;
+    }
+
+}

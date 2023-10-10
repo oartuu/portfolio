@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --cor0: #190526;
+    --cor1: #2A0940;
+    --cor2: #3D1259;
+    --cor3: #4F1A73;
+    --cor4: #BC62F0;
+    --cor5: #BAAEBF; 
+    --cor6: #C1BAC5;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(168deg, #190526 0%, #2A0940 27.99%, #3D1259 65.32%, #4F1A73 99.54%);
+}
+body>h1{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 5em;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30%;
+}
