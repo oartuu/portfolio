@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
+
+.navBar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+
+}
+.navContainer{
+    width: 60vw;
+}
+.navBar_content{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.navBar_contentOption a {
+    font-size: 2em;
+    font-family: 'Teko', sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+.navBar_contentOption a:hover {
+    color: #bdbbbb;
+}

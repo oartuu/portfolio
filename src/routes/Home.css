@@ -1,0 +1,9 @@
+.teste{
+    margin-bottom: 10px;
+    margin-left:10px ;
+    width: 600px;
+    height: 100vh;
+    background-image: url("https://cdn.svgator.com/images/2022/06/use-svg-as-background-image-particle-strokes.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
