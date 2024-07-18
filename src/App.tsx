@@ -2,7 +2,7 @@ import { useState } from "react";
 import About from "./sections/About";
 import Contact from "./sections/Contact";
 import Home from "./sections/Home";
-import Projects from "./sections/Project";
+import Projects from "./sections/Projects";
 
 
 
@@ -26,9 +26,22 @@ function App() {
     setIsContactModalOpen(false);
   }
 
+    const scrollToSection = (id: string) => {
+      const section = document.getElementById(id);
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+      }
+    };
+
+
   return <div className="w-full h-full flex flex-col overflow-x-hidden ">
-    <Home />
-    <About />
+    <Home 
+    scrollToSection={scrollToSection}
+    />
+    <About 
+    
+    scrollToSection={scrollToSection}
+    />
     <Projects 
     closeProjectModal={closeProjectModal}
     isProjectModalOpen={isProjectModalOpen}

@@ -13,7 +13,7 @@ const Contact = ({
   closeContactModal
 }: ContactProps) => {
   return (
-    <div className="w-screen h-screen bg-gray-950 flex flex-col gap-10 justify-center items-center text-center">
+    <div id="contact" className="w-screen h-screen bg-gray-950 flex flex-col gap-10 justify-center items-center text-center">
       <p className="text-gray-300 text-6xl font-bold">
         Entre em contato <br /> para mais{" "}
         <span className="text-blue-800">informações</span>.

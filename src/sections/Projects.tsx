@@ -1,7 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import ProjectModal from "./Project-modal";
 
-interface ProjectProps {
+interface ProjectsProps {
   openProjectModal: () => void
   isProjectModalOpen: boolean
   closeProjectModal: () => void
@@ -11,9 +11,9 @@ const Projects = ({
   openProjectModal,
   isProjectModalOpen,
   closeProjectModal
-}: ProjectProps) => {
+}: ProjectsProps) => {
   return (
-    <div className="h-screen w-screen bg-gradient-to-t from-gray-950 from-5% via-gray-900 via-78% to-gray-800 to-95% flex justify-center items-center">
+    <div id="projects" className="h-screen w-screen bg-gradient-to-t from-gray-950 from-5% via-gray-900 via-78% to-gray-800 to-95% flex justify-center items-center">
       <div className="grid grid-cols-3 gap-12">
         <div className="w-80 h-96 flex flex-col justify-evenly items-center bg-gradient-to-t from-gray-900 rounded-lg shadow-shape">
           <img src="../public/planner.png" alt="" />
