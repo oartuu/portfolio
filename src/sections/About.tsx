@@ -1,4 +1,4 @@
-
+import photo from "../assets/photo.jpg";
 interface AboutProps {
   scrollToSection: (id: string) => void
 }
@@ -14,8 +14,8 @@ const About = ({scrollToSection}: AboutProps) => {
         <div className="flex-1 flex flex-col items-center justify-center">
           <img
             className="w-1/2 rounded-lg shadow-shape"
-            src="../public/photo.jpg"
-            alt=""
+            src={photo}
+            alt="Arthur Do nascimento"
           />
           <button
             onClick={() => scrollToSection("projects")}
