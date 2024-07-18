@@ -29,7 +29,7 @@ const ProjectModal = ({ closeProjectModal }: ProjectModalProps) => {
         <div className="h-px w-full bg-gray-900 my-2"></div>
 
         <div>
-          <button className="bg-zinc-950 w-28 py-3 text-gray-300 mt-4 font-semibold px-4 rounded-lg flex justify-between items-center gap-2 shadow-shape">
+          <button className="bg-zinc-950 w-28 py-3 text-gray-300 mt-4 font-semibold px-4 rounded-lg flex justify-between items-center gap-2 shadow-shape focus:outline-none">
             {" "}
             <GithubIcon /> GitHub
           </button>

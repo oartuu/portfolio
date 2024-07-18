@@ -6,7 +6,10 @@ interface AboutProps {
 
 const About = ({scrollToSection}: AboutProps) => {
   return (
-    <div id="about" className="h-screen w-screen bg-gradient-to-t from-gray-800 from-0% via-gray-950 via-20% to-gray-800 to-100% flex justify-center items-center">
+    <div
+      id="about"
+      className="h-screen w-screen bg-gradient-to-t from-gray-800 from-0% via-gray-950 via-20% to-gray-800 to-100% flex justify-center items-center"
+    >
       <div className="text-gray-300 flex justify- items-center px-6">
         <div className="flex-1 flex flex-col items-center justify-center">
           <img
@@ -14,7 +17,10 @@ const About = ({scrollToSection}: AboutProps) => {
             src="../public/photo.jpg"
             alt=""
           />
-          <button onClick={() => scrollToSection("projects")} className="bg-blue-800 text-gray-300 font-semibold px-4 py-4 rounded-lg mt-4 w-1/2 shadow-shape">
+          <button
+            onClick={() => scrollToSection("projects")}
+            className="bg-blue-800 text-gray-300 font-semibold px-4 py-4 rounded-lg mt-4 w-1/2 shadow-shape focus:outline-none"
+          >
             Projetos
           </button>
         </div>
