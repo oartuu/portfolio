@@ -1,6 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import ProjectModal from "./Project-modal";
-
+import projectLogo from "../assets/planner.png";
 interface ProjectsProps {
   openProjectModal: () => void
   isProjectModalOpen: boolean
@@ -19,7 +19,7 @@ const Projects = ({
     >
       <div className="grid grid-cols-3 gap-12">
         <div className="w-80 h-96 flex flex-col justify-evenly items-center bg-gradient-to-t from-gray-900 rounded-lg shadow-shape">
-          <img src="../public/planner.png" alt="" />
+          <img src={projectLogo} alt="" />
 
           <div className="text-center ">
             <span className="text-gray-300 text-2xl font-semibold ">
