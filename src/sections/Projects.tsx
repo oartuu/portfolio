@@ -15,7 +15,7 @@ const Projects = ({
   return (
     <div
       id="projects"
-      className="h-screen w-screen bg-gradient-to-t from-gray-950 from-5% via-gray-900 via-78% to-gray-800 to-95% flex justify-center items-center"
+      className="h-screen w-screen bg-gray-950 flex justify-center items-center"
     >
       <div className="grid grid-cols-3 gap-12">
         <div className="w-80 h-96 flex flex-col justify-evenly items-center bg-gradient-to-t from-gray-900 rounded-lg shadow-shape">

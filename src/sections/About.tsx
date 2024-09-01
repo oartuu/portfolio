@@ -6,9 +6,10 @@ interface AboutProps {
 
 const About = ({scrollToSection}: AboutProps) => {
   return (
+
     <div
       id="about"
-      className="h-screen w-screen bg-gradient-to-t from-gray-800 from-0% via-gray-950 via-20% to-gray-800 to-100% flex justify-center items-center"
+      className="h-screen w-screen bg-gray-950 flex justify-center items-center"
     >
       <div className="text-gray-300 flex justify- items-center px-6">
         <div className="flex-1 flex flex-col items-center justify-center">
@@ -25,7 +26,7 @@ const About = ({scrollToSection}: AboutProps) => {
           </button>
         </div>
 
-        <div className="w-1/2 flex flex-col text-left gap-2">
+        <div className="w-1/2 flex flex-col text-left gap-2 pr-4 mr-2">
           <p>
             Estudante de Sistemas de Informação apaixonado por desenvolvimento
             web e tecnologias inovadoras. Com um foco sólido em front-end, tenho
@@ -36,7 +37,7 @@ const About = ({scrollToSection}: AboutProps) => {
             Estou em busca de desafios que ampliem meus horizontes e me permitam
             crescer profissionalmente. Atualmente, estou expandindo meu
             conhecimento para o mundo full-stack, explorando tecnologias como
-            .NET C# e Express.js.
+            Django e Express.js.
           </p>
           <p>
             Meu objetivo é aplicar minha criatividade e habilidades técnicas
@@ -44,10 +45,10 @@ const About = ({scrollToSection}: AboutProps) => {
             oportunidades de estágio onde posso aprender e colaborar em um
             ambiente dinâmico e colaborativo.
           </p>
-          <span>Habilidades-chave: JavaScript, React, HTML5, CSS3</span>
+          <span>Habilidades-chave: JavaScript, TypeScript, React, Angular, Vue.js, Django,</span>
           <span>
             Atualmente estudando: Desenvolvimento full-stack, Banco de Dados,
-            Arquitetura de Software, .NET C#, Express.js
+            Arquitetura de Software, Python, Django, Vue.js, Angular.
           </span>
         </div>
       </div>

@@ -6,7 +6,7 @@ interface HomeProps {
 }
 
 const Home = ({ scrollToSection }: HomeProps) => {
-  const texts = ["Olá, me chamo Arthur.", "Desenvolvedor React."];
+  const texts = ["Olá, me chamo Arthur.", "Desenvolvedor React.", "Estudante de Sistemas de Informação.", "Desenvolvedor Web", "Full-stack"];
   const [currentText, setCurrentText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
   const [loopNum, setLoopNum] = useState(0);
@@ -40,7 +40,7 @@ const Home = ({ scrollToSection }: HomeProps) => {
   return (
     <div
       id="home"
-      className="h-screen w-screen  bg-gradient-to-b from-gray-950 from-70% via-gray-900 via-80% to-gray-800 to-100%"
+      className="h-screen w-screen  bg-gradient-to-b from-gray-950 from-70% to-gray-900 to-100%"
     >
       <div className="bg-pattern h-full flex flex-col justify-center items-center">
         <h1 className="text-6xl text-gray-300 font-bold">{currentText}</h1>
